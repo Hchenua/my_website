@@ -1,0 +1,235 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>题目 - 分类 - Gezellig</title>
+    <link>https://hchenua.github.io/categories/%E9%A2%98%E7%9B%AE/</link>
+    <description>题目 - 分类 - Gezellig</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 17 Jul 2023 06:47:15 &#43;0800</lastBuildDate><atom:link href="https://hchenua.github.io/categories/%E9%A2%98%E7%9B%AE/" rel="self" type="application/rss+xml" /><item>
+  <title>第二十题</title>
+  <link>https://hchenua.github.io/int-20/</link>
+  <pubDate>Mon, 17 Jul 2023 06:47:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-20/</guid>
+  <description><![CDATA[<h4 id="情景">情景：</h4>
+<p>一辆匀速向前运动的火车(火车有些老旧)，所以车厢顶部有一颗螺丝，看上去摇摇欲坠，马上就要落下来。</p>
+<ul>
+<li>这辆火车正在向前高速运动，速度是均匀的，便形成了一个惯性系</li>
+</ul>
+<p>这节车厢里正好有一个人，我们把它叫做A，这人正在极度无聊之中，于是掏出了一块秒表，决定给这颗螺丝吊在地板上记个时。因为车厢正好高两米，重力加速度又是个常量，所以螺丝落地的时间是 0.64 秒，而它计的时也正好就是这个数字。<br>
+现在我们假设，正好在螺丝下落的时候，火车外也站了一个人，我们叫他b，也就是这么巧，他也拿了一块秒表进行了计时，他所记录的时间也是 0.64 秒。<br>
+但老师对这题进行了修改，将从车厢顶部掉下来的不是螺丝钉而是射下了一束光(遵循：光速不变定理)</p>
+<p>∆t 表示A的计时，同理 ∆t&rsquo; 表示B的计时<br>
+<font color=#F0F8FF size=3 face="宋体">
+$
+乱码————乱码　　 \\
+(C∆t&rsquo;)^2 - (v∆t&rsquo;)^2 = (v∆t)^2 \\
+∆t&rsquo;^2(C^2-v^2)=C^2∆t^2 \\
+\frac{∆t&rsquo;^2(C^2-v^2)}{(C^2-v^2)} = \frac{C^2∆t^2}{(C^2-v^2)} \\
+∆t&rsquo;^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\
+∆t&rsquo;^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\
+∆t&rsquo; = \frac{∆t}{\sqrt{1 - \frac{v^2}{C^2}}}
+$
+</font></p>
+<hr>
+<h5 id="问题">问题：</h5>
+<p>现在老师的草稿纸丢了，急需上面的图像<br>
+请复原草稿纸上的图像</p>]]></description>
+</item>
+<item>
+  <title>第十九题</title>
+  <link>https://hchenua.github.io/int-19/</link>
+  <pubDate>Mon, 12 Jun 2023 20:44:33 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-19/</guid>
+  <description><![CDATA[<h4 id="情景">情景：</h4>
+<p>你穿越到了西周时期，现在你叫商高(没有失忆保留当代智慧)。有一天周公旦突然问你说：“你说，这天呢我们也上不去，这地呢我们也量不尽，那怎么才能知到这天地之间的规律呢？”<br>
+你回道：“天上不去，地量不尽也没关系啊，因为规律是由数来推导的。比如‘勾广三，股修四，径隅五’，我们就能找出数与数之间的关系了。突然讲得兴奋了起来开始向周公旦讲解这些数的证明方法 ———— 勾股定理<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<hr>
+<p>你拿出了四个一样相同大小的直角三角形。<br>
+</p>
+<hr>
+<h5 id="问题">问题：</h5>
+<p>后面你是怎么证明的呢？(请写出你的推导过程)<br>
+这四个一样相同大小的直角三角形要摆出一个什么呢？（请画出你摆放的图形）</p>
+<hr>]]></description>
+</item>
+<item>
+  <title>第十五题</title>
+  <link>https://hchenua.github.io/int-15/</link>
+  <pubDate>Fri, 27 Jan 2023 18:06:42 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-15/</guid>
+  <description><![CDATA[<h5 id="问题">问题：</h5>
+<p>用圆规画一个半径是 1 的正圆，在它的外边画一个外切正方形。然后在正方形的四个角上再切掉四个小(大小一样)的正方形，继续在每个缺口的两个顶点处，再切掉两个更小(大小一样)的正方形。按这个情况继续切无数次使它接近于圆形，那原来的外切正方形周长是多少？<br>
+</p>]]></description>
+</item>
+<item>
+  <title>第十三题</title>
+  <link>https://hchenua.github.io/int-13/</link>
+  <pubDate>Wed, 03 Aug 2022 08:48:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-13/</guid>
+  <description><![CDATA[<hr>
+<h5 id="第十三题">第十三题：</h5>
+<p>原子弹引爆会产生多大的热量，现在你手中有一个土豆 <em>（土豆不可离开手之外其它地方）</em>。现在请给出一个方法：让原子弹爆炸产生的热量让土豆烤熟，但同时也不能让原子弹伤死自己。</p>
+<blockquote>
+<p>土豆也不一定非要全熟，如果能做到更好，但必须确保自身安全。</p>
+</blockquote>
+<p><em><strong>需要？操作？步骤？过程？</strong></em></p>
+<hr>]]></description>
+</item>
+<item>
+  <title>第八题</title>
+  <link>https://hchenua.github.io/int-8/</link>
+  <pubDate>Tue, 02 Aug 2022 09:00:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-8/</guid>
+  <description><![CDATA[<h5 id="第八题">第八题：</h5>
+<p>一个数除以 5 余 4 ；除以 4 余 3；除以 3 余 2 ，此数最小为多少？</p>
+<hr>]]></description>
+</item>
+<item>
+  <title>第六题</title>
+  <link>https://hchenua.github.io/int-6/</link>
+  <pubDate>Tue, 02 Aug 2022 08:48:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-6/</guid>
+  <description><![CDATA[<h5 id="第六题">第六题：</h5>
+<center> 0 0 0 = 6  <center>
+<center> 1 1 1 = 6    <center>
+<center> 2 2 2 = 6   <center>
+<center> 3 3 3 = 6   <center>
+<center> 4 4 4 = 6   <center>
+<center> 5 5 5 = 6   <center>
+<center> 6 6 6 = 6   <center>
+<center> 7 7 7 = 6  <center>
+<center> 8 8 8 = 6   <center>
+<center> 9 9 9 = 6  <center>
+<center> 10 10 10 = 6  <center>  
+<hr>
+<p>使用简单的运算符号使等式成立</p>
+<hr>
+<p><font color=#F025AB size=4> 设置两条规则： </font></p>
+ <center> 1. 不得引入新的数字   <center>
+  <center>例如：平方² ，引入了2，不可以；  <center>  
+ $ 例如：开立方根 \sqrt[3]{} ，引入了3 ，不可以；$    
+<center> 2. 得数必须等于6 <center>
+<center> 例如：把=改成 ≠ ，不可以；    <center>
+ $例如：对得数6进行修改(入-6、 \sqrt{6} ),不可以。$
+<p><font color=#252627 size=0.1> 一题十分及格即可，也可全做。</font></p>
+<hr>]]></description>
+</item>
+<item>
+  <title>第四题</title>
+  <link>https://hchenua.github.io/int-4/</link>
+  <pubDate>Tue, 02 Aug 2022 07:10:09 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-4/</guid>
+  <description><![CDATA[<h5 id="问题">问题：</h5>
+<p>美国数学科普大师马丁·加德纳对一位姑娘说：“我有三个问题，请你对每个问题只Yes或No回答。第一个问题是：你愿意如实回答后面的两个问题吗？”姑娘：“Yes！”加德纳：“第二个问题是，如果第三个问题是‘你愿意和我一起吃晚饭吗’，你对这两个问题的回答是否一致呢？”可怜的姑娘不知如何回答是好。那次，他们很愉快地在一起吃了一顿愉快的晚餐。</p>
+<blockquote>
+<p>请尝试解释做到的原因</p>
+</blockquote>]]></description>
+</item>
+<item>
+  <title>第二题</title>
+  <link>https://hchenua.github.io/int-2/</link>
+  <pubDate>Tue, 02 Aug 2022 06:47:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-2/</guid>
+  <description><![CDATA[<h5 id="问题">问题：</h5>
+<p>想象你在地面看到同温层飞过一艘飞艇，你在地面上看到这艘飞艇的路线是直线，然后飞艇上有人抛下了一个小球。观察后的结果是你比飞艇上的人后看见小球落地。</p>
+<hr>
+<blockquote>
+<p><strong>提示：</strong>   人能看见物体是光反射的结果，观察的过程中飞艇还是保存原本速度飞行，飞艇上的引力与地球无异，本场实验已排除外来影响。</p>
+</blockquote>
+<hr>
+<p><strong>请画出这场数学实验的平面(2d)建模</strong><br>
+规定几个值：你是A，飞艇上的人是B，抛下时的地点为C</p>
+<blockquote>
+<p>这场实验是由爱因斯坦提出并解决的问题之一，也奠基了后来的相对论。<br>
+观察者不同、位置不同得出的时间结论也会不同。<br>
+时间只是空间的一个函数。</p>
+<blockquote>
+<p>希望这些提示能让你想到这场问题所在的真正值，答案已经给出请推出过程。</p>
+</blockquote>
+</blockquote>]]></description>
+</item>
+<item>
+  <title>第一题</title>
+  <link>https://hchenua.github.io/int-1/</link>
+  <pubDate>Tue, 02 Aug 2022 05:47:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-1/</guid>
+  <description><![CDATA[<h5 id="问题">问题：</h5>
+<p>罗马帝国时期，犹太士兵被罗马人包围决定集体自杀。。。</p>
+<blockquote>
+<p>自杀的方式是所有人围成一个圆，例如：六个人</p>
+<blockquote>
+<p>给他们标记 1-6<br>
+1杀2、3杀4、5杀6;<br>
+1杀3、5杀1、5自杀。</p>
+</blockquote>
+</blockquote>
+<hr>
+<p>现在罗马人又包围了 38 个犹太士兵<br>
+假设：这些人之中，有一个叫 赫切努阿 他想要投降保命，但又不敢明说。<br>
+那么赫切努阿应该站在哪个位置，才能成为最后一个剩下的人？这样他就不用自杀。</p>
+<hr>
+<table>
+<thead>
+<tr>
+<th>士兵总人数</th>
+<th>存活的位置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr>
+<td>9</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td>5</td>
+</tr>
+<tr>
+<td>。。。</td>
+<td>？</td>
+</tr>
+</tbody>
+</table>
+<hr>]]></description>
+</item>
+</channel>
+</rss>

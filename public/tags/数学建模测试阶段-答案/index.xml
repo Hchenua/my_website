@@ -1,0 +1,302 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>数学建模测试阶段-答案 - 标签 - Gezellig</title>
+    <link>https://hchenua.github.io/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5-%E7%AD%94%E6%A1%88/</link>
+    <description>数学建模测试阶段-答案 - 标签 - Gezellig</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 17 Jul 2023 06:47:15 &#43;0800</lastBuildDate><atom:link href="https://hchenua.github.io/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E6%B5%8B%E8%AF%95%E9%98%B6%E6%AE%B5-%E7%AD%94%E6%A1%88/" rel="self" type="application/rss+xml" /><item>
+  <title>第二十题的答案</title>
+  <link>https://hchenua.github.io/int-20.1/</link>
+  <pubDate>Mon, 17 Jul 2023 06:47:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-20.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p></p>
+<p>∆t 表示A的计时，同理 ∆t&rsquo; 表示B的计时<br>
+<font color=#F0F8FF size=3 face="宋体">
+$$
+(C∆t&rsquo;)^2 = (v∆t)^2 + (v∆t&rsquo;)^2 \\
+(C∆t&rsquo;)^2 - (v∆t&rsquo;)^2 = (v∆t)^2 \\
+∆t&rsquo;^2(C^2-v^2)=C^2∆t^2 \\
+\frac{∆t&rsquo;^2(C^2-v^2)}{(C^2-v^2)} = \frac{C^2∆t^2}{(C^2-v^2)} \\
+∆t&rsquo;^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\
+∆t&rsquo;^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\
+∆t&rsquo; = \frac{∆t}{\sqrt{1 - \frac{v^2}{C^2}}}
+$$
+</font></p>
+<hr>
+<p>再通过假设火车速度能达到光速 2% ，即火车速度等于0.02C</p>
+<blockquote>
+<p>代入公式：</p>
+<blockquote>
+<p>$
+∆t&rsquo; = \frac{∆t}{\sqrt{1 - \frac{0.02C^2}{C^2}}} \\
+∆t&rsquo; = \frac{∆t}{\sqrt{1 - 0.02^2}} \\
+\sqrt{0.9996} = 0.99979997999599899971991597359142&hellip; \\
+∆t&rsquo; ≈ 1.0003∆t
+$</p>
+</blockquote>
+</blockquote>
+<p>用勾股定理演算出来的这个式子，就是科学史上赫赫有名的<font color=#FFFFFF size=4 face="宋体">洛伦兹变换</font> ，不过更确切的说应该叫因斯坦版本的洛伦兹变换，因为洛伦兹本人的原始版本比这个要复杂。</p>
+<blockquote>
+<p>那个老师就是爱因斯坦</p>
+</blockquote>]]></description>
+</item>
+<item>
+  <title>第十九题的答案</title>
+  <link>https://hchenua.github.io/int-19.1/</link>
+  <pubDate>Mon, 12 Jun 2023 20:44:33 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-19.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>
+</p>
+<hr>
+<p>大正方形的面积就是 <font color=#F0FFFF size=5 face="华文仿宋">c²</font> = c × c <br>
+而中心位置又围成了一个小正方形，它的边长则是 <font color=#F0FFFF size=5 face="华文仿宋">b - a</font>  ，面积是 <font color=#F0FFFF size=5 face="华文仿宋">(b - a)²</font><br>
+所以也可以说四个三角形的面积 + 一个小正方形 = 大正方形</p>
+<hr>
+<font color=#F0FFFF size=4 face="华文仿宋">
+$
+c^2 = 4\frac{ab}{2} + (b - a)^2 \\\\
+    = 2ab + b^2 - 2ab + a^2 \\\\
+    = a^2 + b^2 \\\\
+$
+</font> 
+<hr>
+<blockquote>
+<p>这个证明方法真正的提出者是三国时期数学家 赵爽<br>
+周公旦 —— 西周文明缔造者之一<br>
+商高 —— 西周时期数学家</p>
+</blockquote>
+<hr>]]></description>
+</item>
+<item>
+  <title>第十五题的答案</title>
+  <link>https://hchenua.github.io/int-15.1/</link>
+  <pubDate>Fri, 27 Jan 2023 18:06:42 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-15.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>关注的是圆的面积，当无限切下去的时候，面积的确无限接近圆的面积，因为随着切割面积的确不断的在减少。但是无论怎么切割，哪怕是无限次，周长恒定为 4 ，证明很简单，无限放大之后外侧还是有小锯齿，说明两条线并没有重合。特别注意无限次的切割重合的是圆的面积，而不是周长。</p>]]></description>
+</item>
+<item>
+  <title>第十三题的答案</title>
+  <link>https://hchenua.github.io/int-13.1/</link>
+  <pubDate>Wed, 03 Aug 2022 08:48:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-13.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>这题难点在于数学思维是指什么？<br>
+我们来假设 一道题 1+2=3 为什么等于3？，小时候老师说一个指头加一个指头加一个指头，数它们1、2、3所以等于3
+那这个推导出答案的过程及思维便是。</p>
+<hr>
+<p>那我们来看题
+原子弹引爆会产生多大的<strong>热量</strong>，你手中有一个土豆(可加热)。<br>
+让原子弹爆炸产生的热量让土豆烤熟，但同时也不能让原子弹伤死自己。<br>
+由此得出：先算出此原子弹的引爆范围，并且站到位于引爆范围外安全位置后退一个手臂的距离，手臂伸直抓握土豆<br>
+此话便是答案</p>]]></description>
+</item>
+<item>
+  <title>第八题的答案</title>
+  <link>https://hchenua.github.io/int-8.1/</link>
+  <pubDate>Tue, 02 Aug 2022 09:00:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-8.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>思维法：<br>
+5余4，尾数是4或9<br>
+4余3，那尾数只能是9了<br>
+3余2，尾数是9，那就只能是27+2=29<br>
+然后，要满足3余2的要求，29要保留，所以结果是<br>
+30n+29。(因为3×4×5=60，形成新的一轮循环，所以30n＜60)<br>
+所以，结果是30+29=59</p>
+<hr>
+<p>规律解法：</p>
+<blockquote>
+<p>5 余 4</p>
+<blockquote>
+<p>少1 —— 5 - 4 = 1</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>4 余 3</p>
+<blockquote>
+<p>少1 —— 4 - 3 = 1</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>3 余 2</p>
+<blockquote>
+<p>少1 —— 3 - 2 = 1</p>
+</blockquote>
+</blockquote>
+<p>所以此数只需要加上 1 便可以被 5、4、3 整除<br>
+那就只需要  <center> 5 × 4 × 3 = 60 <center>
+<center> 60 - 1 =59 <center></p>
+<hr>]]></description>
+</item>
+<item>
+  <title>第六题的答案</title>
+  <link>https://hchenua.github.io/int-6.1/</link>
+  <pubDate>Tue, 02 Aug 2022 08:48:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-6.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<center> (0! + 0! + 0!)! = 6  <center>
+<center> (1 + 1 + 1)! = 6  <center>
+<center> 2 + 2 + 2 = 6   <center> 
+<center> 3 × 3 - 3 = 6    <center>
+$$ \sqrt{4}  + \sqrt{4} + \sqrt{4} = 6 $$ 
+<center> 5 + 5 ÷ 5 = 6  <center>
+<center> 6 + 6 - 6 = 6   <center>
+<center> 7 + 7 ÷ 7 = 6  <center>
+$$ (\sqrt{8+8÷8})! = 6 $$ 
+$$ \sqrt{9}  × \sqrt{9} ÷ \sqrt{9} = 6 $$ 
+$$ (\sqrt{10-10÷10})! = 6 $$]]></description>
+</item>
+<item>
+  <title>第四题的答案</title>
+  <link>https://hchenua.github.io/int-4.1/</link>
+  <pubDate>Tue, 02 Aug 2022 07:10:09 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-4.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>这道题要先看清已经给出了一个假定值了，便是 <font color=#F025AB size=2>第一个问题是：你愿意如实回答后面的两个问题吗？姑娘：Yes！</font><br>
+所以后面的结论都要在第一个问题已经 “Yes” 情况下看了。<br>
+第二个问题，如果她回答No，那么就是说答案不一致，那么第三个问题，你愿意和我吃饭嘛的回答就应该是Yes。因为如果她还是回答No的话，那么她两个问题的答案应该是一致的，那么她在第二个问题上面就说谎了，这样就违背了第一个问题的答案。</p>]]></description>
+</item>
+<item>
+  <title>第二题的答案</title>
+  <link>https://hchenua.github.io/int-2.1/</link>
+  <pubDate>Tue, 02 Aug 2022 06:47:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-2.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>\begin{equation}
+假设：地球上过的时间是 \mathbf{t}_{0} ,飞艇上的时间是 t ,飞艇速度是 v
+\tag{0}
+\end{equation}<br>
+</p>
+<p>$$
+\begin{cases}
+\begin{equation}
+D=ct ， L=c\mathbf{t}_{0}  ， S=v\mathbf{t}_{0}
+\end{equation} \\
+D^2 + S^2 = L^2
+\end{cases}
+$$</p>
+<p>\begin{equation}
+c^2 t^2 + v^2\mathbf{t^2}_{0} = c^2\mathbf{t^2}_{0}
+\tag{2}
+\end{equation}</p>
+<p>\begin{equation}
+\mathbf{t^2}_{0}=(\frac{c^2}{c^2-v^2})t^2
+\tag{3}
+\end{equation}</p>
+<p>\begin{equation}
+地球时间\mathbf{t}_{0}=(\frac{1}{\sqrt{1 -{v^2}{c^2} }}) 飞艇时间t
+\tag{4}
+\end{equation}</p>
+<p>答案就是图片上的图形，如果你已对这个问题产生了好奇，上面给出的便是最简单推导时间膨胀公式的方法-洛伦兹变换的一部分</p>
+<ul>
+<li>由此得出：不同的位置，时间不一样 ————
+<del><strong>协调时、原时</strong></del></li>
+</ul>]]></description>
+</item>
+<item>
+  <title>第一题的答案</title>
+  <link>https://hchenua.github.io/int-1.1/</link>
+  <pubDate>Tue, 02 Aug 2022 05:47:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-1.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<table>
+<thead>
+<tr>
+<th>士兵总人数</th>
+<th>存活的位置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1</td>
+</tr>
+<tr>
+<td>9</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td>5</td>
+</tr>
+<tr>
+<td>。。。</td>
+<td>？</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>我们可以从这个列表得出一些规律：</p>
+</blockquote>
+<ul>
+<li>能活下来的位置都是奇数，无论多少人最先死的都是偶数</li>
+<li>列表中多次出现了 1 ，同时对应的士兵总人数恰好都是 2 的n次方<br>
+∴ 如果士兵总人数是 2 的n次方的情况下，最后存活下来的一定是士兵 1 。</li>
+</ul>
+<blockquote>
+<p>我们先来做个小的验证 19 个人的情况下呢？<br>
+$ 19 不是 2 的n次方，但仍然可以把19写成3加2的4次方 —— 19 = 3 + 2^4 $<br>
+$ 2^4 是 2 的n次方 ，这里的 3 可以暂时理解成先排除多余的这 3 个人$<br>
+给他们标记 1-19
+1杀2、3杀4、5杀6;将2、4、6三个人排除并重新排列。
+7还没动手，所以先从那里按1，以此延续，这时人数变成了16人也就是2的4次方<br>
+所以站在 1 的位置可以活到最后，这里的 1 是原 19 人的 <strong><ruby>7<rt>答案</rt></ruby></strong></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>接下来我们把这个规律整理成数学公式</p>
+<blockquote>
+<p>x 是士兵总人数，y 是存活的位置
+$$
+\begin{cases}
+x = a + 2^n \\
+y = 2a + 1
+\tag{1}
+\end{cases}
+$$
+当有 38 个人，站在 <strong><ruby>14号位置<rt>才能成为最后一个剩下的人</rt></ruby></strong></p>
+</blockquote>
+</blockquote>
+<p>这道题是著名的 <del>“约瑟夫环”</del> 数学问题</p>]]></description>
+</item>
+</channel>
+</rss>

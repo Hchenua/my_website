@@ -1,0 +1,223 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>所有文章 - Gezellig</title>
+    <link>https://hchenua.github.io/posts/</link>
+    <description>所有文章 | Gezellig</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 17 Jul 2023 06:47:15 &#43;0800</lastBuildDate><atom:link href="https://hchenua.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>第二十题</title>
+  <link>https://hchenua.github.io/int-20/</link>
+  <pubDate>Mon, 17 Jul 2023 06:47:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-20/</guid>
+  <description><![CDATA[<h4 id="情景">情景：</h4>
+<p>一辆匀速向前运动的火车(火车有些老旧)，所以车厢顶部有一颗螺丝，看上去摇摇欲坠，马上就要落下来。</p>
+<ul>
+<li>这辆火车正在向前高速运动，速度是均匀的，便形成了一个惯性系</li>
+</ul>
+<p>这节车厢里正好有一个人，我们把它叫做A，这人正在极度无聊之中，于是掏出了一块秒表，决定给这颗螺丝吊在地板上记个时。因为车厢正好高两米，重力加速度又是个常量，所以螺丝落地的时间是 0.64 秒，而它计的时也正好就是这个数字。<br>
+现在我们假设，正好在螺丝下落的时候，火车外也站了一个人，我们叫他b，也就是这么巧，他也拿了一块秒表进行了计时，他所记录的时间也是 0.64 秒。<br>
+但老师对这题进行了修改，将从车厢顶部掉下来的不是螺丝钉而是射下了一束光(遵循：光速不变定理)</p>
+<p>∆t 表示A的计时，同理 ∆t&rsquo; 表示B的计时<br>
+<font color=#F0F8FF size=3 face="宋体">
+$
+乱码————乱码　　 \\
+(C∆t&rsquo;)^2 - (v∆t&rsquo;)^2 = (v∆t)^2 \\
+∆t&rsquo;^2(C^2-v^2)=C^2∆t^2 \\
+\frac{∆t&rsquo;^2(C^2-v^2)}{(C^2-v^2)} = \frac{C^2∆t^2}{(C^2-v^2)} \\
+∆t&rsquo;^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\
+∆t&rsquo;^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\
+∆t&rsquo; = \frac{∆t}{\sqrt{1 - \frac{v^2}{C^2}}}
+$
+</font></p>
+<hr>
+<h5 id="问题">问题：</h5>
+<p>现在老师的草稿纸丢了，急需上面的图像<br>
+请复原草稿纸上的图像</p>]]></description>
+</item>
+<item>
+  <title>第二十题的答案</title>
+  <link>https://hchenua.github.io/int-20.1/</link>
+  <pubDate>Mon, 17 Jul 2023 06:47:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-20.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p></p>
+<p>∆t 表示A的计时，同理 ∆t&rsquo; 表示B的计时<br>
+<font color=#F0F8FF size=3 face="宋体">
+$$
+(C∆t&rsquo;)^2 = (v∆t)^2 + (v∆t&rsquo;)^2 \\
+(C∆t&rsquo;)^2 - (v∆t&rsquo;)^2 = (v∆t)^2 \\
+∆t&rsquo;^2(C^2-v^2)=C^2∆t^2 \\
+\frac{∆t&rsquo;^2(C^2-v^2)}{(C^2-v^2)} = \frac{C^2∆t^2}{(C^2-v^2)} \\
+∆t&rsquo;^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\
+∆t&rsquo;^2 = \frac{C^2}{(C^2-v^2)}∆t^2 \\
+∆t&rsquo; = \frac{∆t}{\sqrt{1 - \frac{v^2}{C^2}}}
+$$
+</font></p>
+<hr>
+<p>再通过假设火车速度能达到光速 2% ，即火车速度等于0.02C</p>
+<blockquote>
+<p>代入公式：</p>
+<blockquote>
+<p>$
+∆t&rsquo; = \frac{∆t}{\sqrt{1 - \frac{0.02C^2}{C^2}}} \\
+∆t&rsquo; = \frac{∆t}{\sqrt{1 - 0.02^2}} \\
+\sqrt{0.9996} = 0.99979997999599899971991597359142&hellip; \\
+∆t&rsquo; ≈ 1.0003∆t
+$</p>
+</blockquote>
+</blockquote>
+<p>用勾股定理演算出来的这个式子，就是科学史上赫赫有名的<font color=#FFFFFF size=4 face="宋体">洛伦兹变换</font> ，不过更确切的说应该叫因斯坦版本的洛伦兹变换，因为洛伦兹本人的原始版本比这个要复杂。</p>
+<blockquote>
+<p>那个老师就是爱因斯坦</p>
+</blockquote>]]></description>
+</item>
+<item>
+  <title>第十九题</title>
+  <link>https://hchenua.github.io/int-19/</link>
+  <pubDate>Mon, 12 Jun 2023 20:44:33 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-19/</guid>
+  <description><![CDATA[<h4 id="情景">情景：</h4>
+<p>你穿越到了西周时期，现在你叫商高(没有失忆保留当代智慧)。有一天周公旦突然问你说：“你说，这天呢我们也上不去，这地呢我们也量不尽，那怎么才能知到这天地之间的规律呢？”<br>
+你回道：“天上不去，地量不尽也没关系啊，因为规律是由数来推导的。比如‘勾广三，股修四，径隅五’，我们就能找出数与数之间的关系了。突然讲得兴奋了起来开始向周公旦讲解这些数的证明方法 ———— 勾股定理<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<hr>
+<p>你拿出了四个一样相同大小的直角三角形。<br>
+</p>
+<hr>
+<h5 id="问题">问题：</h5>
+<p>后面你是怎么证明的呢？(请写出你的推导过程)<br>
+这四个一样相同大小的直角三角形要摆出一个什么呢？（请画出你摆放的图形）</p>
+<hr>]]></description>
+</item>
+<item>
+  <title>第十九题的答案</title>
+  <link>https://hchenua.github.io/int-19.1/</link>
+  <pubDate>Mon, 12 Jun 2023 20:44:33 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-19.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>
+</p>
+<hr>
+<p>大正方形的面积就是 <font color=#F0FFFF size=5 face="华文仿宋">c²</font> = c × c <br>
+而中心位置又围成了一个小正方形，它的边长则是 <font color=#F0FFFF size=5 face="华文仿宋">b - a</font>  ，面积是 <font color=#F0FFFF size=5 face="华文仿宋">(b - a)²</font><br>
+所以也可以说四个三角形的面积 + 一个小正方形 = 大正方形</p>
+<hr>
+<font color=#F0FFFF size=4 face="华文仿宋">
+$
+c^2 = 4\frac{ab}{2} + (b - a)^2 \\\\
+    = 2ab + b^2 - 2ab + a^2 \\\\
+    = a^2 + b^2 \\\\
+$
+</font> 
+<hr>
+<blockquote>
+<p>这个证明方法真正的提出者是三国时期数学家 赵爽<br>
+周公旦 —— 西周文明缔造者之一<br>
+商高 —— 西周时期数学家</p>
+</blockquote>
+<hr>]]></description>
+</item>
+<item>
+  <title>第十五题</title>
+  <link>https://hchenua.github.io/int-15/</link>
+  <pubDate>Fri, 27 Jan 2023 18:06:42 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-15/</guid>
+  <description><![CDATA[<h5 id="问题">问题：</h5>
+<p>用圆规画一个半径是 1 的正圆，在它的外边画一个外切正方形。然后在正方形的四个角上再切掉四个小(大小一样)的正方形，继续在每个缺口的两个顶点处，再切掉两个更小(大小一样)的正方形。按这个情况继续切无数次使它接近于圆形，那原来的外切正方形周长是多少？<br>
+</p>]]></description>
+</item>
+<item>
+  <title>第十五题的答案</title>
+  <link>https://hchenua.github.io/int-15.1/</link>
+  <pubDate>Fri, 27 Jan 2023 18:06:42 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-15.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>关注的是圆的面积，当无限切下去的时候，面积的确无限接近圆的面积，因为随着切割面积的确不断的在减少。但是无论怎么切割，哪怕是无限次，周长恒定为 4 ，证明很简单，无限放大之后外侧还是有小锯齿，说明两条线并没有重合。特别注意无限次的切割重合的是圆的面积，而不是周长。</p>]]></description>
+</item>
+<item>
+  <title>第十三题</title>
+  <link>https://hchenua.github.io/int-13/</link>
+  <pubDate>Wed, 03 Aug 2022 08:48:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-13/</guid>
+  <description><![CDATA[<hr>
+<h5 id="第十三题">第十三题：</h5>
+<p>原子弹引爆会产生多大的热量，现在你手中有一个土豆 <em>（土豆不可离开手之外其它地方）</em>。现在请给出一个方法：让原子弹爆炸产生的热量让土豆烤熟，但同时也不能让原子弹伤死自己。</p>
+<blockquote>
+<p>土豆也不一定非要全熟，如果能做到更好，但必须确保自身安全。</p>
+</blockquote>
+<p><em><strong>需要？操作？步骤？过程？</strong></em></p>
+<hr>]]></description>
+</item>
+<item>
+  <title>第十三题的答案</title>
+  <link>https://hchenua.github.io/int-13.1/</link>
+  <pubDate>Wed, 03 Aug 2022 08:48:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-13.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>这题难点在于数学思维是指什么？<br>
+我们来假设 一道题 1+2=3 为什么等于3？，小时候老师说一个指头加一个指头加一个指头，数它们1、2、3所以等于3
+那这个推导出答案的过程及思维便是。</p>
+<hr>
+<p>那我们来看题
+原子弹引爆会产生多大的<strong>热量</strong>，你手中有一个土豆(可加热)。<br>
+让原子弹爆炸产生的热量让土豆烤熟，但同时也不能让原子弹伤死自己。<br>
+由此得出：先算出此原子弹的引爆范围，并且站到位于引爆范围外安全位置后退一个手臂的距离，手臂伸直抓握土豆<br>
+此话便是答案</p>]]></description>
+</item>
+<item>
+  <title>第八题</title>
+  <link>https://hchenua.github.io/int-8/</link>
+  <pubDate>Tue, 02 Aug 2022 09:00:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-8/</guid>
+  <description><![CDATA[<h5 id="第八题">第八题：</h5>
+<p>一个数除以 5 余 4 ；除以 4 余 3；除以 3 余 2 ，此数最小为多少？</p>
+<hr>]]></description>
+</item>
+<item>
+  <title>第八题的答案</title>
+  <link>https://hchenua.github.io/int-8.1/</link>
+  <pubDate>Tue, 02 Aug 2022 09:00:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-8.1/</guid>
+  <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
+<p>思维法：<br>
+5余4，尾数是4或9<br>
+4余3，那尾数只能是9了<br>
+3余2，尾数是9，那就只能是27+2=29<br>
+然后，要满足3余2的要求，29要保留，所以结果是<br>
+30n+29。(因为3×4×5=60，形成新的一轮循环，所以30n＜60)<br>
+所以，结果是30+29=59</p>
+<hr>
+<p>规律解法：</p>
+<blockquote>
+<p>5 余 4</p>
+<blockquote>
+<p>少1 —— 5 - 4 = 1</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>4 余 3</p>
+<blockquote>
+<p>少1 —— 4 - 3 = 1</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>3 余 2</p>
+<blockquote>
+<p>少1 —— 3 - 2 = 1</p>
+</blockquote>
+</blockquote>
+<p>所以此数只需要加上 1 便可以被 5、4、3 整除<br>
+那就只需要  <center> 5 × 4 × 3 = 60 <center>
+<center> 60 - 1 =59 <center></p>
+<hr>]]></description>
+</item>
+</channel>
+</rss>
