@@ -5,75 +5,99 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>第十九题 - Gezellig</title><meta name="author" content="Hchenua">
+    <title>第十一题 - Gezellig</title><meta name="author" content="Hchenua">
 <meta name="author-link" content="h1940977683@163.com">
-<meta name="description" content="情景：
-你穿越到了西周时期，现在你叫商高(没有失忆保留当代智慧)。有一天周公旦突然问你说：“你说，这天呢我们也上不去，这地呢我们也量不尽，那怎么才能知到这天地之间的规律呢？”
-你回道：“天上不去，地量不尽也没关系啊，因为规律是由数来推导的。比如‘勾广三，股修四，径隅五’，我们就能找出数与数之间的关系了。突然讲得兴奋了起来开始向周公旦讲解这些数的证明方法 ———— 勾股定理1
-
-你拿出了四个一样相同大小的直角三角形。
-
-
-问题：
-后面你是怎么证明的呢？(请写出你的推导过程)
-这四个一样相同大小的直角三角形要摆出一个什么呢？（请画出你摆放的图形）
-" /><meta name="keywords" content='数学建模测试阶段-题目' /><meta itemprop="name" content="第十九题">
-<meta itemprop="description" content="情景：
-你穿越到了西周时期，现在你叫商高(没有失忆保留当代智慧)。有一天周公旦突然问你说：“你说，这天呢我们也上不去，这地呢我们也量不尽，那怎么才能知到这天地之间的规律呢？”
-你回道：“天上不去，地量不尽也没关系啊，因为规律是由数来推导的。比如‘勾广三，股修四，径隅五’，我们就能找出数与数之间的关系了。突然讲得兴奋了起来开始向周公旦讲解这些数的证明方法 ———— 勾股定理1
-
-你拿出了四个一样相同大小的直角三角形。
+<meta name="description" content="第六题：
+我们将一个正方形图片绕着一条边 转一圈，会得到一个圆柱；但如果将这环绕的圆当成这正方形图片移动的距离那会得到下面这层关系：
+$$
+圆柱体积 = 长方体体积 = πr^3
+$$
 
 
-问题：
-后面你是怎么证明的呢？(请写出你的推导过程)
-这四个一样相同大小的直角三角形要摆出一个什么呢？（请画出你摆放的图形）
-"><meta itemprop="datePublished" content="2023-06-12T20:44:33+08:00" />
-<meta itemprop="dateModified" content="2023-06-12T20:44:33+08:00" />
-<meta itemprop="wordCount" content="309"><meta itemprop="image" content="https://hchenua.github.io/logo.png"/>
-<meta itemprop="keywords" content="数学建模测试阶段-题目," /><meta property="og:title" content="第十九题" />
-<meta property="og:description" content="情景：
-你穿越到了西周时期，现在你叫商高(没有失忆保留当代智慧)。有一天周公旦突然问你说：“你说，这天呢我们也上不去，这地呢我们也量不尽，那怎么才能知到这天地之间的规律呢？”
-你回道：“天上不去，地量不尽也没关系啊，因为规律是由数来推导的。比如‘勾广三，股修四，径隅五’，我们就能找出数与数之间的关系了。突然讲得兴奋了起来开始向周公旦讲解这些数的证明方法 ———— 勾股定理1
+那如果将这个正方形图片斜着对折切掉一半呢？     就会得到下面的棱锥体、棱柱体
+如图：
+虽然正方形面积切掉一半，但在旋转过程中的任意时刻，被旋转的直角三角形面积总归是正方形的一半，所以它们的体积一定是相等的吗？
+$$
+棱锥体体积 = \frac{1}{3}πr^3
+$$
+$$
+棱柱体体积 = \frac{1}{2}πr^3
+$$
+请解释这是为什么？" /><meta name="keywords" content='数学建模测试阶段-题目' /><meta itemprop="name" content="第十一题">
+<meta itemprop="description" content="第六题：
+我们将一个正方形图片绕着一条边 转一圈，会得到一个圆柱；但如果将这环绕的圆当成这正方形图片移动的距离那会得到下面这层关系：
+$$
+圆柱体积 = 长方体体积 = πr^3
+$$
 
-你拿出了四个一样相同大小的直角三角形。
+
+那如果将这个正方形图片斜着对折切掉一半呢？     就会得到下面的棱锥体、棱柱体
+如图：
+虽然正方形面积切掉一半，但在旋转过程中的任意时刻，被旋转的直角三角形面积总归是正方形的一半，所以它们的体积一定是相等的吗？
+$$
+棱锥体体积 = \frac{1}{3}πr^3
+$$
+$$
+棱柱体体积 = \frac{1}{2}πr^3
+$$
+请解释这是为什么？"><meta itemprop="datePublished" content="2022-08-03T01:48:15+08:00" />
+<meta itemprop="dateModified" content="2022-08-03T01:48:15+08:00" />
+<meta itemprop="wordCount" content="235"><meta itemprop="image" content="https://hchenua.github.io/logo.png"/>
+<meta itemprop="keywords" content="数学建模测试阶段-题目," /><meta property="og:title" content="第十一题" />
+<meta property="og:description" content="第六题：
+我们将一个正方形图片绕着一条边 转一圈，会得到一个圆柱；但如果将这环绕的圆当成这正方形图片移动的距离那会得到下面这层关系：
+$$
+圆柱体积 = 长方体体积 = πr^3
+$$
 
 
-问题：
-后面你是怎么证明的呢？(请写出你的推导过程)
-这四个一样相同大小的直角三角形要摆出一个什么呢？（请画出你摆放的图形）
-" />
+那如果将这个正方形图片斜着对折切掉一半呢？     就会得到下面的棱锥体、棱柱体
+如图：
+虽然正方形面积切掉一半，但在旋转过程中的任意时刻，被旋转的直角三角形面积总归是正方形的一半，所以它们的体积一定是相等的吗？
+$$
+棱锥体体积 = \frac{1}{3}πr^3
+$$
+$$
+棱柱体体积 = \frac{1}{2}πr^3
+$$
+请解释这是为什么？" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hchenua.github.io/int-19/" /><meta property="og:image" content="https://hchenua.github.io/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-06-12T20:44:33+08:00" />
-<meta property="article:modified_time" content="2023-06-12T20:44:33+08:00" />
+<meta property="og:url" content="https://hchenua.github.io/int-11/" /><meta property="og:image" content="https://hchenua.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-03T01:48:15+08:00" />
+<meta property="article:modified_time" content="2022-08-03T01:48:15+08:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://hchenua.github.io/logo.png"/>
 
-<meta name="twitter:title" content="第十九题"/>
-<meta name="twitter:description" content="情景：
-你穿越到了西周时期，现在你叫商高(没有失忆保留当代智慧)。有一天周公旦突然问你说：“你说，这天呢我们也上不去，这地呢我们也量不尽，那怎么才能知到这天地之间的规律呢？”
-你回道：“天上不去，地量不尽也没关系啊，因为规律是由数来推导的。比如‘勾广三，股修四，径隅五’，我们就能找出数与数之间的关系了。突然讲得兴奋了起来开始向周公旦讲解这些数的证明方法 ———— 勾股定理1
+<meta name="twitter:title" content="第十一题"/>
+<meta name="twitter:description" content="第六题：
+我们将一个正方形图片绕着一条边 转一圈，会得到一个圆柱；但如果将这环绕的圆当成这正方形图片移动的距离那会得到下面这层关系：
+$$
+圆柱体积 = 长方体体积 = πr^3
+$$
 
-你拿出了四个一样相同大小的直角三角形。
 
-
-问题：
-后面你是怎么证明的呢？(请写出你的推导过程)
-这四个一样相同大小的直角三角形要摆出一个什么呢？（请画出你摆放的图形）
-"/>
+那如果将这个正方形图片斜着对折切掉一半呢？     就会得到下面的棱锥体、棱柱体
+如图：
+虽然正方形面积切掉一半，但在旋转过程中的任意时刻，被旋转的直角三角形面积总归是正方形的一半，所以它们的体积一定是相等的吗？
+$$
+棱锥体体积 = \frac{1}{3}πr^3
+$$
+$$
+棱柱体体积 = \frac{1}{2}πr^3
+$$
+请解释这是为什么？"/>
 <meta name="application-name" content="FixIt">
-<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="https://hchenua.github.io/int-19/" /><link rel="prev" href="https://hchenua.github.io/int-19.1/" /><link rel="next" href="https://hchenua.github.io/int-20.1/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="https://hchenua.github.io/int-11/" /><link rel="prev" href="https://hchenua.github.io/int-11.1/" /><link rel="next" href="https://hchenua.github.io/int-13.1/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "第十九题",
+    "headline": "第十一题",
     "inLanguage": "zh-CN",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https:\/\/hchenua.github.io\/int-19\/"
-    },"genre": "posts","keywords": "数学建模测试阶段-题目","wordcount":  309 ,
-    "url": "https:\/\/hchenua.github.io\/int-19\/","datePublished": "2023-06-12T20:44:33+08:00","dateModified": "2023-06-12T20:44:33+08:00","publisher": {
+      "@id": "https:\/\/hchenua.github.io\/int-11\/"
+    },"genre": "posts","keywords": "数学建模测试阶段-题目","wordcount":  235 ,
+    "url": "https:\/\/hchenua.github.io\/int-11\/","datePublished": "2022-08-03T01:48:15+08:00","dateModified": "2022-08-03T01:48:15+08:00","publisher": {
       "@type": "Organization",
       "name": ""},"description": ""
   }
@@ -181,12 +205,12 @@
     </aside>
 
   <article class="page single">
-    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="转载" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>第十九题</span>
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="转载" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>第十一题</span>
       </h1></div><div class="post-meta">
       <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
       </span></span>
           <span class="post-category">收录于 <a href="/categories/%E9%A2%98%E7%9B%AE/"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 题目</a></span></div>
-      <div class="post-meta-line"><span title="发布于 2023-06-12 20:44:33"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2023-06-12">2023-06-12</time></span>&nbsp;<span title="更新于 2023-06-12 20:44:33"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2023-06-12">2023-06-12</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 309 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 1 分钟</span>&nbsp;</div>
+      <div class="post-meta-line"><span title="发布于 2022-08-03 01:48:15"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2022-08-03">2022-08-03</time></span>&nbsp;<span title="更新于 2022-08-03 01:48:15"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2022-08-03">2022-08-03</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 235 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 1 分钟</span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
           <span>目录</span>
@@ -198,9 +222,9 @@
       <ul>
         <li>
           <ul>
-            <li><a href="#情景">情景：</a>
+            <li>
               <ul>
-                <li><a href="#问题">问题：</a></li>
+                <li><a href="#第六题">第六题：</a></li>
               </ul>
             </li>
           </ul>
@@ -209,29 +233,27 @@
     </li>
   </ul>
 </nav></div>
-      </div><div class="content" id="content" data-end-flag="一切伟大的行动和思考都有一个微不足道的开始"><h4 id="情景">情景：</h4>
-<p>你穿越到了西周时期，现在你叫商高(没有失忆保留当代智慧)。有一天周公旦突然问你说：“你说，这天呢我们也上不去，这地呢我们也量不尽，那怎么才能知到这天地之间的规律呢？”<br>
-你回道：“天上不去，地量不尽也没关系啊，因为规律是由数来推导的。比如‘勾广三，股修四，径隅五’，我们就能找出数与数之间的关系了。突然讲得兴奋了起来开始向周公旦讲解这些数的证明方法 ———— 勾股定理<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+      </div><div class="content" id="content" data-end-flag="一切伟大的行动和思考都有一个微不足道的开始"><h5 id="第六题">第六题：</h5>
+<p>我们将一个正方形图片绕着一条边 转一圈，会得到一个圆柱；但如果将这环绕的圆当成这正方形图片移动的距离那会得到下面这层关系：
+$$
+圆柱体积 = 长方体体积 = πr^3
+$$
+<img loading="lazy" src="/img/11-11%281%29.jpg" srcset="/img/11-11%281%29.jpg, /img/11-11%281%29.jpg 1.5x, /img/11-11%281%29.jpg 2x" sizes="auto" data-title="/img/11-11(1).jpg" data-alt="/img/11-11(1).jpg" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></p>
 <hr>
-<p>你拿出了四个一样相同大小的直角三角形。<br>
-<img loading="lazy" src="/img/1919%281%29.jpg" srcset="/img/1919%281%29.jpg, /img/1919%281%29.jpg 1.5x, /img/1919%281%29.jpg 2x" sizes="auto" data-title="/img/1919(1).jpg" data-alt="/img/1919(1).jpg" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></p>
-<hr>
-<h5 id="问题">问题：</h5>
-<p>后面你是怎么证明的呢？(请写出你的推导过程)<br>
-这四个一样相同大小的直角三角形要摆出一个什么呢？（请画出你摆放的图形）</p>
-<hr>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>当时那个年代还没出现证明方法，所以只是情景需要。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div></div><div class="post-footer" id="post-footer">
+<p>那如果将这个正方形图片斜着对折切掉一半呢？     就会得到下面的棱锥体、棱柱体<br>
+如图：<img loading="lazy" src="/img/11-11%282%29.jpg" srcset="/img/11-11%282%29.jpg, /img/11-11%282%29.jpg 1.5x, /img/11-11%282%29.jpg 2x" sizes="auto" data-title="/img/11-11(2).jpg" data-alt="/img/11-11(2).jpg" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><br>
+虽然正方形面积切掉一半，但在旋转过程中的任意时刻，被旋转的直角三角形面积总归是正方形的一半，所以它们的体积一定是相等的吗？
+$$
+棱锥体体积 = \frac{1}{3}πr^3
+$$
+$$
+棱柱体体积 = \frac{1}{2}πr^3
+$$</p>
+<p>请解释这是为什么？</p></div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
-        <span title="更新于 2023-06-12 20:44:33">更新于 2023-06-12&nbsp;</span>
+        <span title="更新于 2022-08-03 01:48:15">更新于 2022-08-03&nbsp;</span>
       </div></div>
     <div class="post-info-line">
       <div class="post-info-md"></div>
@@ -248,8 +270,8 @@
     </section>
   </div>
 
-  <div class="post-nav"><a href="/int-19.1/" class="post-nav-item" rel="prev" title="第十九题的答案"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>第十九题的答案</a>
-      <a href="/int-20.1/" class="post-nav-item" rel="next" title="第二十题的答案">第二十题的答案<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+  <div class="post-nav"><a href="/int-11.1/" class="post-nav-item" rel="prev" title="第十一题答案"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>第十一题答案</a>
+      <a href="/int-13.1/" class="post-nav-item" rel="next" title="第十三题的答案">第十三题的答案<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></main></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric">0%</span>
         </div></div><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;"></div><noscript>

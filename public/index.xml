@@ -173,53 +173,45 @@ $
 此话便是答案</p>]]></description>
 </item>
 <item>
-  <title>第八题</title>
-  <link>https://hchenua.github.io/int-8/</link>
-  <pubDate>Tue, 02 Aug 2022 09:00:15 &#43;0800</pubDate>
+  <title>第十一题</title>
+  <link>https://hchenua.github.io/int-11/</link>
+  <pubDate>Wed, 03 Aug 2022 01:48:15 &#43;0800</pubDate>
   <author>Hchenua</author>
-  <guid>https://hchenua.github.io/int-8/</guid>
-  <description><![CDATA[<h5 id="第八题">第八题：</h5>
-<p>一个数除以 5 余 4 ；除以 4 余 3；除以 3 余 2 ，此数最小为多少？</p>
-<hr>]]></description>
+  <guid>https://hchenua.github.io/int-11/</guid>
+  <description><![CDATA[<h5 id="第六题">第六题：</h5>
+<p>我们将一个正方形图片绕着一条边 转一圈，会得到一个圆柱；但如果将这环绕的圆当成这正方形图片移动的距离那会得到下面这层关系：
+$$
+圆柱体积 = 长方体体积 = πr^3
+$$
+</p>
+<hr>
+<p>那如果将这个正方形图片斜着对折切掉一半呢？     就会得到下面的棱锥体、棱柱体<br>
+如图：<br>
+虽然正方形面积切掉一半，但在旋转过程中的任意时刻，被旋转的直角三角形面积总归是正方形的一半，所以它们的体积一定是相等的吗？
+$$
+棱锥体体积 = \frac{1}{3}πr^3
+$$
+$$
+棱柱体体积 = \frac{1}{2}πr^3
+$$</p>
+<p>请解释这是为什么？</p>]]></description>
 </item>
 <item>
-  <title>第八题的答案</title>
-  <link>https://hchenua.github.io/int-8.1/</link>
-  <pubDate>Tue, 02 Aug 2022 09:00:15 &#43;0800</pubDate>
+  <title>第十一题答案</title>
+  <link>https://hchenua.github.io/int-11.1/</link>
+  <pubDate>Wed, 03 Aug 2022 01:48:15 &#43;0800</pubDate>
   <author>Hchenua</author>
-  <guid>https://hchenua.github.io/int-8.1/</guid>
+  <guid>https://hchenua.github.io/int-11.1/</guid>
   <description><![CDATA[<h4 id="答案如下">答案如下：</h4>
-<p>思维法：<br>
-5余4，尾数是4或9<br>
-4余3，那尾数只能是9了<br>
-3余2，尾数是9，那就只能是27+2=29<br>
-然后，要满足3余2的要求，29要保留，所以结果是<br>
-30n+29。(因为3×4×5=60，形成新的一轮循环，所以30n＜60)<br>
-所以，结果是30+29=59</p>
-<hr>
-<p>规律解法：</p>
+<p>这题有障眼法的地方，不要将两个概念混在一起了。先看图形的棱锥体底面圆上的点再看看右边的棱柱体明白了吧<br>
+</p>
+<p>例如：下面给的参考答案(相同意思即可)</p>
 <blockquote>
-<p>5 余 4</p>
-<blockquote>
-<p>少1 —— 5 - 4 = 1</p>
-</blockquote>
+<p>圆锥旋转时，是绕一条直角边进行旋转，所以那条直角边没有动，因此有两条棱扫过；但是右边直棱柱是三条棱进行平动扫过，所以肯定有一个多出来的体积。</p>
 </blockquote>
 <blockquote>
-<p>4 余 3</p>
-<blockquote>
-<p>少1 —— 4 - 3 = 1</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<p>3 余 2</p>
-<blockquote>
-<p>少1 —— 3 - 2 = 1</p>
-</blockquote>
-</blockquote>
-<p>所以此数只需要加上 1 便可以被 5、4、3 整除<br>
-那就只需要  <center> 5 × 4 × 3 = 60 <center>
-<center> 60 - 1 =59 <center></p>
-<hr>]]></description>
+<p>前后两个图的重心不一样，导致不能够直接看做中点什么意思。</p>
+</blockquote>]]></description>
 </item>
 </channel>
 </rss>

@@ -1,8 +1,8 @@
 ---
-title: 第十一题的答案
+title: 第十一题答案
 subtitle:
 date: 2022-08-03T1:48:15+08:00
-draft: true
+draft: false
 author:
   name:  #作者名字
   link:
@@ -18,13 +18,16 @@ tags:
   - 数学建模测试阶段-答案
 categories:
   - 答案
+
+
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 #### 答案如下：
-答案就在题目里：一等于五；二等于十；三等于十五；四等于二十；  
-<center> [1 = 5]^(答案)；2 = 10；3 = 15；4 = 20  <center>
-<center>  5 = 1 <center>
+这题有障眼法的地方，不要将两个概念混在一起了。先看图形的棱锥体底面圆上的点再看看右边的棱柱体明白了吧  
+![](/img/11-11(3).jpg)  
 
-***
+例如：下面给的参考答案(相同意思即可)
+> 圆锥旋转时，是绕一条直角边进行旋转，所以那条直角边没有动，因此有两条棱扫过；但是右边直棱柱是三条棱进行平动扫过，所以肯定有一个多出来的体积。
 
+> 前后两个图的重心不一样，导致不能够直接看做中点什么意思。
 <!--more-->

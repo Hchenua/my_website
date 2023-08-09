@@ -2,7 +2,7 @@
 title: 纵横家
 subtitle: 鬼谷
 date: 2013-07-21T11:05:06+08:00
-draft: true
+draft: false
 author:
   name: Dao
   link:

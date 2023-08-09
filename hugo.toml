@@ -1,5 +1,5 @@
 title = "Gezellig"
-baseURL = "https://Hchenua.github.io/"
+baseURL = "https://hchenua.github.io/"
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
@@ -69,8 +69,9 @@ theme = "FixIt"
     tileColor = "#da532c"
     #  Android 浏览器主题色
     [params.app.themeColor]
-      light = "#f8f8f8"
       dark = "#252627"
+      light = "#f8f8f8"
+
 
   #  搜索配置
   [params.search]
@@ -342,7 +343,7 @@ theme = "FixIt"
     # 许可协议信息（支持 HTML 格式）
     license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
     # 是否在文章页面显示原始 Markdown 文档链接
-    linkToMarkdown = true
+    linkToMarkdown = false
     #  是否在 RSS 中显示全文内容
     rssFullText = false
     #  页面样式 ["narrow", "normal", "wide", ...]
@@ -649,7 +650,7 @@ theme = "FixIt"
   #  盘古之白配置
   [params.pangu]
     # 适用于中文写作用户
-    enable = true
+    enable = false
     selector = "article" # 
 
   #  水印配置

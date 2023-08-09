@@ -1,41 +1,5 @@
----
-title: 第十一题
-subtitle:
-date: 2022-08-03T1:48:15+08:00
-draft: false
-author:
-  name:
-  link:
-  email:
-  avatar:
-description:
-keywords:
-license:
-comment: false
-weight: 0
-tags:
-  - 数学建模测试阶段-题目
-categories:
-  - 题目
-hiddenFromHomePage: false
-hiddenFromSearch: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: true
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
+# 第十一题
 
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
----
 ##### 第六题：
 我们将一个正方形图片绕着一条边 转一圈，会得到一个圆柱；但如果将这环绕的圆当成这正方形图片移动的距离那会得到下面这层关系：
 $$
@@ -56,3 +20,10 @@ $$
 
 请解释这是为什么？
 <!--more-->
+
+
+---
+
+> 作者: <no value>  
+> URL: https://hchenua.github.io/int-11/  
+

@@ -6,6 +6,8 @@ https://hchenua.github.io/int-15/
 https://hchenua.github.io/int-15.1/
 https://hchenua.github.io/int-13/
 https://hchenua.github.io/int-13.1/
+https://hchenua.github.io/int-11/
+https://hchenua.github.io/int-11.1/
 https://hchenua.github.io/int-8/
 https://hchenua.github.io/int-8.1/
 https://hchenua.github.io/int-6/

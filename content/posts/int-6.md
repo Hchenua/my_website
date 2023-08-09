@@ -2,7 +2,7 @@
 title: 第六题
 subtitle:
 date: 2022-08-02T8:48:15+08:00
-draft: true
+draft: false
 author:
   name:
   link:

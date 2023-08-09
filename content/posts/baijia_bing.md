@@ -2,7 +2,7 @@
 title: 神秘的兵家
 subtitle: 兵家
 date: 2010-12-04T16:40:27+08:00
-draft: true
+draft: false
 author:
   name: Dao
   link:

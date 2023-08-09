@@ -2,7 +2,7 @@
 title: 圣人孔夫子
 subtitle: 孔子
 date: 2011-04-01T17:30:03+08:00
-draft: true
+draft: false
 author:
   name: Dao
   link:

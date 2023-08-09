@@ -2,7 +2,7 @@
 title: 儒家思想
 subtitle: 解释权
 date: 2011-04-02T18:00:05+08:00
-draft: true
+draft: false
 author:
   name: Dao
   link:

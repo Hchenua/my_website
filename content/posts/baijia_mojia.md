@@ -2,7 +2,7 @@
 title: 墨家
 subtitle: 墨子
 date: 2012-04-05T13:32:28+08:00
-draft: true
+draft: false
 author:
   name: Dao
   link:

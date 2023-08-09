@@ -2,7 +2,7 @@
 title: 先秦儒家
 subtitle:
 date: 2011-04-02T8:56:05+08:00
-draft: true
+draft: false
 author:
   name: Dao
   link:

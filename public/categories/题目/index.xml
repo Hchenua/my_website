@@ -78,6 +78,30 @@ $
 <hr>]]></description>
 </item>
 <item>
+  <title>第十一题</title>
+  <link>https://hchenua.github.io/int-11/</link>
+  <pubDate>Wed, 03 Aug 2022 01:48:15 &#43;0800</pubDate>
+  <author>Hchenua</author>
+  <guid>https://hchenua.github.io/int-11/</guid>
+  <description><![CDATA[<h5 id="第六题">第六题：</h5>
+<p>我们将一个正方形图片绕着一条边 转一圈，会得到一个圆柱；但如果将这环绕的圆当成这正方形图片移动的距离那会得到下面这层关系：
+$$
+圆柱体积 = 长方体体积 = πr^3
+$$
+</p>
+<hr>
+<p>那如果将这个正方形图片斜着对折切掉一半呢？     就会得到下面的棱锥体、棱柱体<br>
+如图：<br>
+虽然正方形面积切掉一半，但在旋转过程中的任意时刻，被旋转的直角三角形面积总归是正方形的一半，所以它们的体积一定是相等的吗？
+$$
+棱锥体体积 = \frac{1}{3}πr^3
+$$
+$$
+棱柱体体积 = \frac{1}{2}πr^3
+$$</p>
+<p>请解释这是为什么？</p>]]></description>
+</item>
+<item>
   <title>第八题</title>
   <link>https://hchenua.github.io/int-8/</link>
   <pubDate>Tue, 02 Aug 2022 09:00:15 &#43;0800</pubDate>
